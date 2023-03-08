@@ -1,0 +1,77 @@
+body {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+input {
+  width: 50px;
+}
+
+label {
+  font-size: medium;
+}
+
+button {
+  border-radius: style;
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  padding: 20px;
+  border-bottom: 2px solid lightgrey;
+  color: greenyellow;
+}
+
+footer {
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 20px;
+  border-bottom: 2px solid gray;
+}
+
+main {
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background-color: lightgrey;
+  display: flex;
+  flex-flow: row;
+}
+
+.calcCtn {
+  border: 1px solid black;
+  width: 100%;
+  padding: 10px;
+}
+
+.inputCnt {
+  display: flex;
+}
+
+.rotuloCalc {
+  color: darkblue;
+}
+
+.resultado {
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  background-color: lightgrey;
+  display: flex;
+}

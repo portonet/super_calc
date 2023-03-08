@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Calculadora - Aline</title>
+  </head>
+  <body>
+    <header>
+      <h1>Super Calculadora</h1>
+      <span class="inputCnt">
+        <label for="numA">Primeiro número (A)</label>
+        <input type="number" name="numA" id="numA" />
+
+        <label for="numB">Segundo número (B)&nbsp;</label>
+        <input type="number" name="numB" id="numB" />
+        <!--<input type="button" value="Calcular" id="button-calc" onclick="calcular()">-->
+
+        <button
+          id="button-calc"
+          style="background-color: greenyellow"
+          onclick="calcular()"
+        >
+          Calcular
+        </button>
+      </span>
+    </header>
+
+    <main>
+      <div class="calcCtn">
+        <p class="rotuloCalc">Soma</p>
+        <p class="resultado" id="soma"></p>
+      </div>
+      <div class="calcCtn">
+        <p class="rotuloCalc">Subtração A - B</p>
+        <p class="resultado" id="subAmenosB"></p>
+      </div>
+      <div class="calcCtn">
+        <p class="rotuloCalc">Subtração B - A</p>
+        <br />
+        <p class="resultado" id="subBmenosA"></p>
+      </div>
+    </main>
+    <main>
+      <div class="calcCtn">
+        <p class="rotuloCalc">Multiplicação</p>
+        <p class="resultado" id="multiplicacao"></p>
+      </div>
+      <div class="calcCtn">
+        <p class="rotuloCalc">Divisão A/B</p>
+        <p class="resultado" id="divAporB"></p>
+      </div>
+      <div class="calcCtn">
+        <p class="rotuloCalc">Divisão B/A</p>
+        <p class="resultado" id="divBporA"></p>
+      </div>
+    </main>
+    <main>
+      <div class="calcCtn">
+        <p class="rotuloCalc">Potência B elev A</p>
+        <p class="resultado" id="pwrAbaseB"></p>
+      </div>
+      <div class="calcCtn">
+        <p class="rotuloCalc">Potência A elev a B</p>
+        <p class="resultado" id="pwrBbaseA"></p>
+      </div>
+      <div class="calcCtn">
+        <p class="rotuloCalc">Raiz quadrada de A</p>
+        <p class="resultado" id="raizQuadrA"></p>
+      </div>
+    </main>
+    <main>
+      <div class="calcCtn">
+        <p class="rotuloCalc">Raiz quadrada de B</p>
+        <p class="resultado" id="raizQuadrB"></p>
+      </div>
+      <div class="calcCtn">
+        <p class="rotuloCalc">Fatorial de A</p>
+        <p class="resultado" id="fatorialA"></p>
+      </div>
+      <div class="calcCtn">
+        <p class="rotuloCalc">Fatorial de B</p>
+        <p class="resultado" id="fatorialB"></p>
+      </div>
+    </main>
+    <main>
+      <div class="calcCtn">
+        <p class="rotuloCalc">Perc A em relac a B</p>
+        <p class="resultado" id="percArelatB"></p>
+      </div>
+      <div class="calcCtn">
+        <p class="rotuloCalc">Perc B em relac a A</p>
+        <p class="resultado" id="percBrelatA"></p>
+      </div>
+      <div class="calcCtn">
+        <p class="rotuloCalc">Media</p>
+        <p class="resultado" id="media"></p>
+      </div>
+    </main>
+
+    <script defer src="./js/script.js"></script>
+  </body>
+  <footer></footer>
+</html>
